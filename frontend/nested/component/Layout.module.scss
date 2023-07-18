@@ -1,0 +1,32 @@
+
+
+.gridmain{
+    display: grid;
+    grid-template-areas: "header" "main" "footer";
+    grid-template-columns:1fr;
+    grid-template-rows: 4rem 1fr 3rem;
+    // max-height: 100%;
+   
+    // background-color: red;
+   
+}
+.headers{
+    grid-area: header;
+    z-index: 1000;
+    top: 0;
+    position: sticky;
+}
+
+.mains{
+    display: flex;
+    grid-area: main;
+}
+.footers{
+    grid-area: footer;
+}
+#__next{
+    height: 100%;
+}
+#__next >div {
+    height: 100%;
+}

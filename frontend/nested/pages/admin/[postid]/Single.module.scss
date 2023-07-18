@@ -1,0 +1,137 @@
+.main{
+    padding-left: 150px;
+    padding-right: 150px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+.Allaboutpost{
+    // width: 100%;
+    flex: 2;
+    
+
+    
+}
+.maylikepost{
+    flex: 1.3;
+}
+
+}
+.imgss{
+    width: 100%;
+    padding: 20px;
+    img{
+        width: 100%;
+        height: 300px;
+        border-radius: 10px;
+    }
+}
+.userdeatisl{
+    display: flex;
+    margin: 5px;
+}
+.actions{
+    margin: 5px;
+    display: flex;
+}
+.maylikepost{
+    display: flex;
+    // justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    // height: 100%;
+    position: sticky;
+    height: calc(100vh - 64px);
+    top: 64px;
+    overflow-y: scroll;
+    // background-color: rebeccapurple;
+    // box-shadow: rgb(0, 0, blue);
+    .shadow {
+        padding: 10px;
+        margin: 20px;
+        box-shadow: 2px 2px 2px 2px #888888;
+    
+}
+}
+.allmaylikeposts{
+    // max-height: 40%;
+    // height: 100%;
+    // top: 5rem;
+    padding: 10px;
+    // display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    div{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 5px;
+        img{
+            width: 100%;
+            border-radius: 10px;
+        }
+
+    }
+
+}
+
+// 
+
+.maindiv{
+//   height: 100%;
+  width: 100%;
+  padding: 5px;
+  display: flex;
+
+}
+
+// .manis{
+//     position: relative;
+// }
+.linemain{
+    display: flex;
+    // width: 20%;
+    &:hover{
+        background-color: rgb(204, 9, 204) !important;
+        
+        
+    }
+    
+    .line{
+        // height: 100%;
+        // border: 2px solid rgb(0, 0, 0) ;
+        background-color: rgb(22, 21, 21);
+        width: 5px;
+        transition: 1s  ease-out;
+        // padding: 10px;
+        
+        
+        
+    }
+    .actives{
+        width: 5px;
+        border-radius: 10px;
+        background-color: purple;
+    }
+    .titles{
+        margin: 10px;
+        // padding: 10px;
+    }
+  .para{
+    transition: 1s  ease-out;
+
+  }
+}
+// .linemain:hover,.line:hover{
+//     background-color: rgb(204, 9, 204) !important;
+    
+    
+// }
+
+
+.postdetailss{
+   font-family: 'Times New Roman', Times, serif;
+   font-size: 12px;
+}

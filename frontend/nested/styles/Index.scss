@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family:Helvetica (sans-serif)
+    Arial (sans-serif);
+}
+body{
+    height: 100vh;
+    
+    
+}
+
+.ql-snow .ql-stroke{
+    stroke: white !important;
+}
+.ql-editor{
+    &::before{
+        color: white !important;
+    }
+}
+.ql-snow * {
+    box-sizing: border-box;
+    color: white;
+}
+@import "../component/Layout.module.scss"
+
